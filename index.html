@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="American-European Media Association - Advancing media innovation through AI, XR, and blockchain technologies."
+        />
+        <meta
+            name="keywords"
+            content="AEMA, American-European Media Association, AI, XR, blockchain, media technology, virtual reality, artificial intelligence"
+        />
+        <meta
+            property="og:title"
+            content="American-European Media Association"
+        />
+        <meta
+            property="og:description"
+            content="Pioneering the future of media with AI, XR & Blockchain technologies."
+        />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <title>American-European Media Association | 欧美媒体协会</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Favicon -->
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>"
+        />
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <span class="logo-en">AEMA</span>
+                    <span class="logo-cn">欧美媒体协会</span>
+                </a>
+
+                <!-- Language Switcher -->
+                <div class="lang-switch">
+                    <button
+                        class="lang-btn active"
+                        id="lang-en"
+                        aria-label="Switch to English"
+                    >
+                        EN
+                    </button>
+                    <button
+                        class="lang-btn"
+                        id="lang-zh"
+                        aria-label="切换到中文"
+                    >
+                        中文
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- Navigation -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home" class="active" data-i18n="nav_home"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#about" data-i18n="nav_about">About</a>
+                        </li>
+                        <li>
+                            <a href="#board" data-i18n="nav_board">Board</a>
+                        </li>
+                        <li>
+                            <a href="#mission" data-i18n="nav_mission"
+                                >Mission</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#activities" data-i18n="nav_activities"
+                                >Activities</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#contact" data-i18n="nav_contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="hero_title">
+                    American-European Media Association
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">AEMA</p>
+                <p class="hero-tagline" data-i18n="hero_tagline">
+                    "Recording Real Stories, Amplifying Community Voices"
+                </p>
+                <div>
+                    <a
+                        href="#about"
+                        class="btn btn-primary"
+                        data-i18n="hero_learn_more"
+                        >Learn More</a
+                    >
+                    <a
+                        href="#contact"
+                        class="btn btn-outline"
+                        data-i18n="hero_contact_us"
+                        >Contact Us</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="about_title">About Us</h2>
+                    <p data-i18n="about_subtitle">
+                        Advancing media innovation through cutting-edge
+                        technology
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>
+                            <span class="icon">🤖</span>
+                            <span data-i18n="about_card1_title"
+                                >AI-Powered Media</span
+                            >
+                        </h3>
+                        <p data-i18n="about_card1_text">
+                            Harnessing artificial intelligence to transform
+                            content creation, distribution, and consumption
+                            across the media landscape.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <h3>
+                            <span class="icon">🥽</span>
+                            <span data-i18n="about_card2_title"
+                                >Immersive XR Experiences</span
+                            >
+                        </h3>
+                        <p data-i18n="about_card2_text">
+                            Creating breakthrough virtual, augmented, and mixed
+                            reality experiences that redefine audience
+                            engagement.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <h3>
+                            <span class="icon">⛓️</span>
+                            <span data-i18n="about_card3_title"
+                                >Blockchain Innovation</span
+                            >
+                        </h3>
+                        <p data-i18n="about_card3_text">
+                            Leveraging decentralized technology to ensure
+                            content authenticity, fair compensation, and
+                            transparent rights management.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Board Section -->
+        <section id="board" class="board">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="board_title">Board of Directors</h2>
+                    <p data-i18n="board_subtitle">
+                        Leading with vision and experience
+                    </p>
+                </div>
+
+                <div class="board-grid">
+                    <div class="board-member">
+                        <div class="member-photo">HZ</div>
+                        <h4>Hui Zhang</h4>
+                        <p>Chairperson</p>
+                    </div>
+
+                    <div class="board-member">
+                        <div class="member-photo">MM</div>
+                        <h4>Martin Megan</h4>
+                        <p>Vice Chairperson</p>
+                    </div>
+
+                    <div class="board-member">
+                        <div class="member-photo">MC</div>
+                        <h4>Miaomiao Cui</h4>
+                        <p>Secretary</p>
+                    </div>
+
+                    <div class="board-member">
+                        <div class="member-photo">LH</div>
+                        <h4>Li He</h4>
+                        <p>Treasurer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section id="mission" class="mission">
+            <div class="section-container">
+                <div class="mission-content">
+                    <h2 data-i18n="mission_title">Our Mission</h2>
+                    <p data-i18n="mission_content">
+                        The Association is organized exclusively for charitable
+                        and educational purposes. Specifically, the Association
+                        is dedicated to advancing the media industry through the
+                        research, development, and application of cutting-edge
+                        technologies including Artificial Intelligence, Extended
+                        Reality (XR), and Blockchain.
+                    </p>
+
+                    <blockquote class="mission-quote" data-i18n="mission_quote">
+                        "Promoting the long-term development and direct benefits
+                        of the media industry in North America and Europe
+                        through AI, XR, blockchain, and other advanced
+                        technologies."
+                    </blockquote>
+
+                    <p>
+                        <strong data-i18n="mission_address_label"
+                            >Registered Address:</strong
+                        >
+                        <span data-i18n="mission_address"
+                            >1555 22nd Street, West Vancouver BC V7V 4E1,
+                            British Columbia, Canada</span
+                        >
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="activities">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="activities_title">Our Activities</h2>
+                    <p data-i18n="activities_subtitle">
+                        How we drive media innovation
+                    </p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-item">
+                        <h4 data-i18n="activity1_title">AI Integration</h4>
+                        <ul
+                            data-i18n-list="activity1_list"
+                            data-i18n="activity1_list"
+                        >
+                            <li>AI-powered content creation tools</li>
+                            <li>Machine learning for audience analytics</li>
+                            <li>Natural language processing for media</li>
+                            <li>Automated content optimization</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-item">
+                        <h4 data-i18n="activity2_title">XR Development</h4>
+                        <ul
+                            data-i18n-list="activity2_list"
+                            data-i18n="activity2_list"
+                        >
+                            <li>Virtual reality production pipelines</li>
+                            <li>Augmented reality applications</li>
+                            <li>Mixed reality storytelling platforms</li>
+                            <li>Immersive entertainment experiences</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-item">
+                        <h4 data-i18n="activity3_title">
+                            Blockchain Solutions
+                        </h4>
+                        <ul
+                            data-i18n-list="activity3_list"
+                            data-i18n="activity3_list"
+                        >
+                            <li>NFT and digital asset management</li>
+                            <li>Smart contracts for creators</li>
+                            <li>Decentralized content distribution</li>
+                            <li>Transparent royalty tracking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <div class="section-title">
+                    <h2 data-i18n="contact_title">Contact Us</h2>
+                    <p data-i18n="contact_subtitle">Get in touch with us</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 data-i18n="contact_title">Contact Information</h3>
+
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h4 data-i18n="contact_email_label">Email</h4>
+                                <p>
+                                    <a href="mailto:info@aemediaassociation.org"
+                                        >info@aemediaassociation.org</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="icon">🕐</span>
+                            <div>
+                                <h4 data-i18n="contact_hours_label">
+                                    Business Hours
+                                </h4>
+                                <p data-i18n="contact_hours">
+                                    Monday - Friday: 9:00 AM - 6:00 PM (PST)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h4 data-i18n="contact_location_label">
+                                    Location
+                                </h4>
+                                <p data-i18n="contact_location">
+                                    British Columbia, Canada
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3 data-i18n="about_title">About The Association</h3>
+                        <p
+                            style="
+                                color: var(--text-light);
+                                line-height: 1.8;
+                                margin-bottom: 1rem;
+                            "
+                        >
+                            The American-European Media Association (AEMA) is a
+                            non-profit organization dedicated to advancing the
+                            media industry through cutting-edge technologies
+                            including Artificial Intelligence, Extended Reality
+                            (XR), and Blockchain.
+                        </p>
+                        <p style="color: var(--text-light); line-height: 1.8">
+                            Founded in 2022 and registered in British Columbia,
+                            Canada, we pioneer innovative solutions that
+                            transform how media is created, distributed, and
+                            consumed worldwide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <a href="#" class="logo">
+                    <span class="logo-en">AEMA</span>
+                    <span class="logo-cn">欧美媒体协会</span>
+                </a>
+                <p>
+                    © 2022-2026
+                    <span data-i18n="footer_text"
+                        >American-European Media Association. All rights
+                        reserved.</span
+                    >
+                </p>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
